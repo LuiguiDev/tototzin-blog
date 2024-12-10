@@ -18,7 +18,7 @@ const FeaturedProjects: React.FC = () => {
     {
       title: "Proyectos",
       image: {
-        imgSrc: "/path-to-projects-image.jpg",
+        imgSrc: "./images/nahua_vision_screenshot.jpg",
         imgAlt: "Proyecto web destacado"
       },
       description: "Descubre mis desarrollos web y aplicaciones",
