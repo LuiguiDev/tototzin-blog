@@ -1,3 +1,4 @@
+import Writings from "../pages/writings/writings";
 import Card from "./Card";
 
 import './home.css'
@@ -46,6 +47,8 @@ const FeaturedProjects: React.FC = () => {
             <Card key={project.title} {...project} />
           ))}
         </div>
+
+        <Writings />
       </section>
     </main>
   );
