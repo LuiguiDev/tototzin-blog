@@ -1,0 +1,39 @@
+.writings_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.document_container {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 8.5 / 11;
+
+  display: grid;
+  grid-template-rows: 1fr minmax(50px, 200px) 1fr;
+  gap: 5px;
+
+  border: 1px solid black;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
+
+  padding: 10px;
+  text-align: justify;
+  background-color: #FAF3E0;  
+}
+
+.document_container h2 {
+  font-size: 1rem;
+}
+
+.content_container {
+  font-size: .7rem;
+
+  -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+.keep_reading {
+  text-decoration: underline;
+}

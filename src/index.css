@@ -2,3 +2,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-family: "Libre Baskerville", serif;
+}
+
+button, input, textarea {
+  font-family: inherit;
+}
