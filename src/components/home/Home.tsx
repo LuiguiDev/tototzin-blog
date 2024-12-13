@@ -1,4 +1,5 @@
-import Writings from "../pages/writings/writings";
+import ArtGallery from "../pages/art_gallery/ArtGallery";
+import Projects from "../pages/proyects/Proyects";
 import Card from "./Card";
 
 import './home.css'
@@ -48,8 +49,9 @@ const FeaturedProjects: React.FC = () => {
           ))}
         </div>
 
-        <Writings />
       </section>
+
+      <Projects />
     </main>
   );
 };

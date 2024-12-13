@@ -5,8 +5,10 @@
 
 html {
   font-family: "Libre Baskerville", serif;
+  color: #333;
 }
 
 button, input, textarea {
   font-family: inherit;
 }
+
