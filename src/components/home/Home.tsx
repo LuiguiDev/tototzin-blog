@@ -1,4 +1,4 @@
-import ArtGallery from "../pages/art_gallery/ArtGallery";
+import { BtnPoiner, CanvasVista } from "../pages/art_gallery/canvas_vista/CanvasVista";
 import Projects from "../pages/proyects/Proyects";
 import Card from "./Card";
 
@@ -51,7 +51,7 @@ const FeaturedProjects: React.FC = () => {
 
       </section>
 
-      <Projects />
+      <CanvasVista img=""/>
     </main>
   );
 };
